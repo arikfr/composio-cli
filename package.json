@@ -1,0 +1,30 @@
+{
+  "name": "composio-cli",
+  "version": "0.1.0",
+  "description": "CLI for listing and invoking Composio toolkits/tools via @composio/core",
+  "bin": {
+    "composio-cli": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "composio",
+    "cli",
+    "tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@composio/core": "^0.6.0",
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
