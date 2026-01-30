@@ -1,9 +1,12 @@
 {
-  "name": "composio-cli",
+  "name": "@arikfr/composio-cli",
   "version": "0.1.0",
   "description": "CLI for listing and invoking Composio toolkits/tools via @composio/core",
   "bin": {
     "composio-cli": "src/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "start": "node src/cli.js",
