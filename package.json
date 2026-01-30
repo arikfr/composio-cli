@@ -8,6 +8,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arikfr/composio-cli.git"
+  },
+  "homepage": "https://github.com/arikfr/composio-cli#readme",
+  "bugs": {
+    "url": "https://github.com/arikfr/composio-cli/issues"
+  },
   "scripts": {
     "start": "node src/cli.js",
     "test": "node --test"
